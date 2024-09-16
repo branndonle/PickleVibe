@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+}
+:root {
+    --background: #dbe5ea;
+    --secondary-bg-color: #a9becb;
+    --link-color: #0f4662;
+    --text-color: #7994a0;
+}
+body {
+    background: var(--background);
+}
+
+.navbar {
+    background-color: var(--secondary-bg-color);
+}
+#logo {
+    margin: 10px;
+}
+.container {
+    display: flex;
+
+}
